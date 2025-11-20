@@ -4,8 +4,8 @@ This is a project for solving stochastic programming model optimization problems
 
 ├── README.md
 ├── SAA_of_new_uncertain_main.m   # Matlab main
-├── 1.monte_carloA.m                # Monte Carlo simulation function
-├── 2.subprogram.m                  # Lower Bound Problem Solving and Result Feedback -- Submodule 1
-├──────2.1.new_function.py            # Subfunction used for lower bound solving
-├── 3.up_subprogram.m               # Solving the upper bound problem and providing feedback on results -- Submodule 2
-├──────3.1.new_function_up.py         # Subfunction used for upper bound solving
+├── 1.monte_carloA.m              # Monte Carlo simulation function
+├── 2.up_subprogram.m             # Upper Bound Problem Solving and Result Feedback -- Submodule 1
+├──────2.1.new_function_up.py     # Subfunction used for lower bound solving
+├── 3.low_subprogram.m            # Solving the Lower bound problem and providing feedback on results -- Submodule 2
+├──────3.1.new_function_low.py    # Subfunction used for upper bound solving
